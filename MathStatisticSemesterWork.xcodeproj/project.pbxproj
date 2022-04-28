@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530FBFBB23CDB9C82855D431 /* Pods_MathStatisticSemesterWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1081E97DF70BE721A9292A3E /* Pods_MathStatisticSemesterWork.framework */; };
+		A212BF00280DA92F00F2ACE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212BEFF280DA92F00F2ACE6 /* ViewController.swift */; };
+		A21732FF280DAB1500E1473F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21732FE280DAB1500E1473F /* DataManager.swift */; };
+		A249D2EB280F201100DB7B12 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249D2EA280F201100DB7B12 /* CustomTableViewCell.swift */; };
 		A27F01CC280C3FB60032210C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F01CB280C3FB60032210C /* AppDelegate.swift */; };
 		A27F01CE280C3FB60032210C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F01CD280C3FB60032210C /* SceneDelegate.swift */; };
-		A27F01D0280C3FB60032210C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27F01CF280C3FB60032210C /* ViewController.swift */; };
 		A27F01D3280C3FB60032210C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27F01D1280C3FB60032210C /* Main.storyboard */; };
 		A27F01D5280C3FB60032210C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27F01D4280C3FB60032210C /* Assets.xcassets */; };
 		A27F01D8280C3FB60032210C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27F01D6280C3FB60032210C /* LaunchScreen.storyboard */; };
+		A27F01E6280C98260032210C /* telecom_churn.csv in Resources */ = {isa = PBXBuildFile; fileRef = A27F01E5280C98260032210C /* telecom_churn.csv */; };
+		A2BE86452818852A001C1F02 /* BarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BE86442818852A001C1F02 /* BarChartsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1081E97DF70BE721A9292A3E /* Pods_MathStatisticSemesterWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathStatisticSemesterWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDA342F21DCFAC8F1795ED0 /* Pods-MathStatisticSemesterWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathStatisticSemesterWork.debug.xcconfig"; path = "Target Support Files/Pods-MathStatisticSemesterWork/Pods-MathStatisticSemesterWork.debug.xcconfig"; sourceTree = "<group>"; };
+		A212BEFF280DA92F00F2ACE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A21732FE280DAB1500E1473F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A249D2EA280F201100DB7B12 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		A27F01C8280C3FB60032210C /* MathStatisticSemesterWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathStatisticSemesterWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27F01CB280C3FB60032210C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A27F01CD280C3FB60032210C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A27F01CF280C3FB60032210C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A27F01D2280C3FB60032210C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A27F01D4280C3FB60032210C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A27F01D7280C3FB60032210C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A27F01D9280C3FB60032210C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27F01E5280C98260032210C /* telecom_churn.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = telecom_churn.csv; sourceTree = "<group>"; };
+		A2BE86442818852A001C1F02 /* BarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsViewController.swift; sourceTree = "<group>"; };
+		AFC087A6DCE997F2C3A54F21 /* Pods-MathStatisticSemesterWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathStatisticSemesterWork.release.xcconfig"; path = "Target Support Files/Pods-MathStatisticSemesterWork/Pods-MathStatisticSemesterWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530FBFBB23CDB9C82855D431 /* Pods_MathStatisticSemesterWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36369C6C27D02018EE7E21C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FDA342F21DCFAC8F1795ED0 /* Pods-MathStatisticSemesterWork.debug.xcconfig */,
+				AFC087A6DCE997F2C3A54F21 /* Pods-MathStatisticSemesterWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A27F01BF280C3FB60032210C = {
 			isa = PBXGroup;
 			children = (
 				A27F01CA280C3FB60032210C /* MathStatisticSemesterWork */,
 				A27F01C9280C3FB60032210C /* Products */,
+				36369C6C27D02018EE7E21C4 /* Pods */,
+				E37FFA32839DBF695032702C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +82,25 @@
 			children = (
 				A27F01CB280C3FB60032210C /* AppDelegate.swift */,
 				A27F01CD280C3FB60032210C /* SceneDelegate.swift */,
-				A27F01CF280C3FB60032210C /* ViewController.swift */,
+				A21732FE280DAB1500E1473F /* DataManager.swift */,
+				A212BEFF280DA92F00F2ACE6 /* ViewController.swift */,
+				A249D2EA280F201100DB7B12 /* CustomTableViewCell.swift */,
+				A2BE86442818852A001C1F02 /* BarChartsViewController.swift */,
 				A27F01D1280C3FB60032210C /* Main.storyboard */,
 				A27F01D4280C3FB60032210C /* Assets.xcassets */,
 				A27F01D6280C3FB60032210C /* LaunchScreen.storyboard */,
 				A27F01D9280C3FB60032210C /* Info.plist */,
+				A27F01E5280C98260032210C /* telecom_churn.csv */,
 			);
 			path = MathStatisticSemesterWork;
+			sourceTree = "<group>";
+		};
+		E37FFA32839DBF695032702C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1081E97DF70BE721A9292A3E /* Pods_MathStatisticSemesterWork.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A27F01DC280C3FB70032210C /* Build configuration list for PBXNativeTarget "MathStatisticSemesterWork" */;
 			buildPhases = (
+				2F4B5DF83244AC1E60B6747E /* [CP] Check Pods Manifest.lock */,
 				A27F01C4280C3FB60032210C /* Sources */,
 				A27F01C5280C3FB60032210C /* Frameworks */,
 				A27F01C6280C3FB60032210C /* Resources */,
+				7023485EAA7C71213D75B2B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A27F01D8280C3FB60032210C /* LaunchScreen.storyboard in Resources */,
+				A27F01E6280C98260032210C /* telecom_churn.csv in Resources */,
 				A27F01D5280C3FB60032210C /* Assets.xcassets in Resources */,
 				A27F01D3280C3FB60032210C /* Main.storyboard in Resources */,
 			);
@@ -133,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F4B5DF83244AC1E60B6747E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathStatisticSemesterWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7023485EAA7C71213D75B2B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathStatisticSemesterWork/Pods-MathStatisticSemesterWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathStatisticSemesterWork/Pods-MathStatisticSemesterWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathStatisticSemesterWork/Pods-MathStatisticSemesterWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A27F01C4280C3FB60032210C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A27F01D0280C3FB60032210C /* ViewController.swift in Sources */,
+				A21732FF280DAB1500E1473F /* DataManager.swift in Sources */,
+				A249D2EB280F201100DB7B12 /* CustomTableViewCell.swift in Sources */,
 				A27F01CC280C3FB60032210C /* AppDelegate.swift in Sources */,
 				A27F01CE280C3FB60032210C /* SceneDelegate.swift in Sources */,
+				A212BF00280DA92F00F2ACE6 /* ViewController.swift in Sources */,
+				A2BE86452818852A001C1F02 /* BarChartsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +368,7 @@
 		};
 		A27F01DD280C3FB70032210C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDA342F21DCFAC8F1795ED0 /* Pods-MathStatisticSemesterWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +379,6 @@
 				INFOPLIST_FILE = MathStatisticSemesterWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +396,7 @@
 		};
 		A27F01DE280C3FB70032210C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC087A6DCE997F2C3A54F21 /* Pods-MathStatisticSemesterWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +407,6 @@
 				INFOPLIST_FILE = MathStatisticSemesterWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
